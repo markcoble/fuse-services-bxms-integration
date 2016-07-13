@@ -71,7 +71,7 @@ public class BXMSDecisionServiceTest {
 
 		Properties prop = new Properties();
 		prop.setProperty("BPMS_USER_NAME", "bpmsAdmin");
-		prop.setProperty("BPMS_PASSWORD", "!Mark1971");
+		prop.setProperty("BPMS_PASSWORD", "!bpmsAdmin");
 		prop.setProperty("BPMS_SERVICE", "bpms-gateway");
 		prop.store(new FileWriter(configPath), "configuration");
 

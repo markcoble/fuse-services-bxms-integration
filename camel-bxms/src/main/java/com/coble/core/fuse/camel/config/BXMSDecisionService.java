@@ -53,7 +53,7 @@ public class BXMSDecisionService extends ParentCamelConfiguration {
 		springJAXRSClientFactoryBean.setLoggingFeatureEnabled(true);
 		springJAXRSClientFactoryBean.setSkipFaultLogging(true);
 		springJAXRSClientFactoryBean.setUsername("bpmsAdmin");
-		springJAXRSClientFactoryBean.setPassword("!Mark1971");
+		springJAXRSClientFactoryBean.setPassword("!bpmsAdmin");
 		springJAXRSClientFactoryBean.setProvider(org.apache.cxf.jaxrs.provider.JAXBElementProvider.class);
 		return springJAXRSClientFactoryBean;
 	}
@@ -72,7 +72,7 @@ public class BXMSDecisionService extends ParentCamelConfiguration {
 		springJAXRSClientFactoryBean.setLoggingFeatureEnabled(true);
 		springJAXRSClientFactoryBean.setSkipFaultLogging(true);
 		springJAXRSClientFactoryBean.setUsername("bpmsAdmin");
-		springJAXRSClientFactoryBean.setPassword("!Mark1971");
+		springJAXRSClientFactoryBean.setPassword("!bpmsAdmin");
 		springJAXRSClientFactoryBean.setProvider(org.apache.cxf.jaxrs.provider.JAXBElementProvider.class);
 		return springJAXRSClientFactoryBean;
 	}

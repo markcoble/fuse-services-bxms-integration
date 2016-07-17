@@ -103,10 +103,9 @@ public class BXMSDecisionServiceTest {
 		request.setDeploymentId("org.kie.example:camel-process:1.0.0-SNAPSHOT");
 		request.setProcessId("global.exception.handler");
 		request.setProcessInstanceId(28L);
-
-		// TODO this is currently not triggering events.
-		request.setEventType("signal");
-		request.setEvent("addExcpetion");
+.
+		request.setEventType("addException");
+		request.setEvent("exception message");
 		request.setOperation("SIGNAL_EVENT");
 		directstartProducer.sendBody(request);
 		mockComplete.assertIsSatisfied();
